@@ -12,7 +12,7 @@ import wikiTests.helpers.attach.Attach;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class TestBase {
+public class TestBaseAndroidTests {
     @BeforeAll
     static void beforeAll() {
         Configuration.browser = BrowserstackDriverAndroid.class.getName();
