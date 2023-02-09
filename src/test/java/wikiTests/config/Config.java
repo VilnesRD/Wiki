@@ -1,7 +1,7 @@
 package wikiTests.config;
 
 @Config.Sources({
-        "classpath:properties/remote.properties"
+        "classpath:properties/${env}.properties"
 })
 
 public interface Config extends org.aeonbits.owner.Config {

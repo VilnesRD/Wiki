@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/wikiTests/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/remote.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/IOSTests/LoginTestIOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/ios.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/SearchArticleAboutJavaWithAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/searchArticleAboutJavaWithAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/TestBaseAndroidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/TestBaseAndroidTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriverAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriverAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/helpers/attach/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/helpers/attach/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/helpers/browserstackVideo/BrowserstackVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/helpers/browserstackVideo/BrowserstackVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/helpers/customApiListener/CustomApiListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/helpers/customApiListener/CustomApiListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/TestBaseAndroidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/searchArticleAboutJavaWithAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/androidTests/searchArticleAboutJavaWithAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriverAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/remote.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/android.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +21,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -56,8 +54,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,6 +64,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2LUJvxaQ2wkpa0kdbHwDxhPtt14" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -86,7 +87,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.typerenderers&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -215,7 +216,26 @@
       <option name="presentableId" value="Default" />
       <updated>1675919967129</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1675943580538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675943580538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1675943839271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675943839271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

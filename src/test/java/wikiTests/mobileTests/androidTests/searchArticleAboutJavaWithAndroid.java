@@ -1,6 +1,7 @@
-package wikiTests.androidTests;
+package wikiTests.mobileTests.androidTests;
 
 import org.junit.jupiter.api.Test;
+import wikiTests.mobileTests.TestBase;
 
 import static com.codeborne.selenide.CollectionCondition.sizeGreaterThan;
 import static com.codeborne.selenide.Selenide.$;
@@ -10,7 +11,7 @@ import static io.appium.java_client.AppiumBy.id;
 import static io.qameta.allure.Allure.step;
 
 
-public class searchArticleAboutJavaWithAndroid extends TestBaseAndroidTests {
+public class searchArticleAboutJavaWithAndroid extends TestBase {
     @Test
     void searchArticleAboutJava() {
             step("Type search", () -> {

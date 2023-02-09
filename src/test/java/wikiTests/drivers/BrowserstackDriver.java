@@ -12,7 +12,7 @@ import wikiTests.config.Config;
 import javax.annotation.Nonnull;
 import java.net.URL;
 
-public class BrowserstackDriverAndroid implements WebDriverProvider {
+public class BrowserstackDriver implements WebDriverProvider {
 
     private static Config config = ConfigFactory.create(Config.class);
     @SneakyThrows
