@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="Add ios test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/IOSTests/LoginTestIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/IOSTests/LoginTestIOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/androidTests/searchArticleAboutJavaWithAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/androidTests/searchArticleAboutJavaWithAndroid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675946851676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add ios test">
+      <created>1675947987472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675947987472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
