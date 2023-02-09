@@ -32,6 +32,4 @@ public interface Config extends org.aeonbits.owner.Config {
 
     @Key("name")
     String testName();
-
-
 }

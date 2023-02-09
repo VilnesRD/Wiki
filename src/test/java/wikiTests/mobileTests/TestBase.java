@@ -29,7 +29,6 @@ public class TestBase {
     void addAttachments() {
         String sessionId = sessionId().toString();
 
-//        Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
 
         closeWebDriver();
