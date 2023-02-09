@@ -17,6 +17,7 @@ public class BrowserstackDriver implements WebDriverProvider {
     private static Config config = ConfigFactory.create(Config.class);
     @SneakyThrows
     @Override
+
     public WebDriver createDriver(@Nonnull Capabilities capabilities) {
         MutableCapabilities mutableCapabilities = new MutableCapabilities();
         mutableCapabilities.merge(capabilities);

@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/IOSTests/LoginTestIOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/ios.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/TestBaseAndroidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/androidTests/searchArticleAboutJavaWithAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/mobileTests/androidTests/searchArticleAboutJavaWithAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriverAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/BrowserstackDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/remote.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/android.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="Add ios test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,12 +221,20 @@
       <option name="project" value="LOCAL" />
       <updated>1675943839271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add ios test">
+      <created>1675946066493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675946066493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Add ios test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ios test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

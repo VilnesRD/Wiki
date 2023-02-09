@@ -1,5 +1,6 @@
 package wikiTests.config;
 
+@Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "classpath:properties/${env}.properties"
 })
