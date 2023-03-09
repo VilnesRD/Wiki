@@ -18,7 +18,6 @@ public class AddLanguage extends TestBase {
     @Tag("android")
     @DisplayName("Add language")
     void addLanguage() {
-        back();
         step("Type search", () ->
                 $(AppiumBy.accessibilityId("Search Wikipedia")).click());
         step("Add new language", () -> {
