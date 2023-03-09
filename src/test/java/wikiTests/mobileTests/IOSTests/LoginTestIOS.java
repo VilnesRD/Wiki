@@ -1,5 +1,6 @@
 package wikiTests.mobileTests.IOSTests;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import wikiTests.mobileTests.TestBase;
@@ -10,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.openqa.selenium.By.id;
 
 public class LoginTestIOS extends TestBase {
+    @Owner("Rodichev")
     @Test
     @Tag("ios")
     void loginTestFlight (){

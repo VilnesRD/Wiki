@@ -1,5 +1,6 @@
 package wikiTests.mobileTests.androidTests;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import wikiTests.mobileTests.TestBase;
@@ -13,15 +14,16 @@ import static io.qameta.allure.Allure.step;
 
 
 public class searchArticleAboutJavaWithAndroid extends TestBase {
+    @Owner("Rodichev")
     @Test
     @Tag("android")
     void searchArticleAboutJava() {
-            step("Type search", () -> {
-                $(accessibilityId("Search Wikipedia")).click();
-                $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Java");
-            });
-            step("Verify content found", () ->
-                    $$(id("org.wikipedia.alpha:id/page_list_item_title"))
-                            .shouldHave(sizeGreaterThan(0)));
+        step("Type search", () -> {
+            $(accessibilityId("Search Wikipedia")).click();
+            $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Java");
+        });
+        step("Verify content found", () ->
+                $$(id("org.wikipedia.alpha:id/page_list_item_title"))
+                        .shouldHave(sizeGreaterThan(0)));
     }
 }
