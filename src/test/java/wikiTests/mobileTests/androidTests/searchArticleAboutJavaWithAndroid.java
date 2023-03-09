@@ -1,7 +1,6 @@
 package wikiTests.mobileTests.androidTests;
 
 import io.qameta.allure.Owner;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import wikiTests.mobileTests.TestBase;
@@ -17,6 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class searchArticleAboutJavaWithAndroid extends TestBase {
     @Owner("Rodichev")
     @Test
+    @Tag("android")
     @Tag("android")
     @DisplayName("Find article")
     void searchArticleAboutJava() {

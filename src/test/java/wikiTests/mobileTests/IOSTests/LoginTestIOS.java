@@ -1,8 +1,5 @@
 package wikiTests.mobileTests.IOSTests;
 
-import io.qameta.allure.Owner;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import wikiTests.mobileTests.TestBase;
 
@@ -15,7 +12,6 @@ public class LoginTestIOS extends TestBase {
     @Owner("Rodichev")
     @Test
     @Tag("ios")
-    @DisplayName("Login test")
     void loginTestFlight (){
         step("Click button", () ->{
             $(id("Text Button")).click();

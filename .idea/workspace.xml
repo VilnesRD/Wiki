@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="Add new test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/LocalDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiTests/drivers/LocalDriver.java" afterDir="false" />
-    </list>
+    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="Add ios test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +29,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wiki" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -64,22 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/yavil/IdeaProjects/Wiki",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yavil/IdeaProjects/Wiki&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yavil\IdeaProjects\Wiki\src\test\java\wikiTests\iosTests" />
@@ -88,7 +89,51 @@
       <recent name="wikiTests.iosTests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddLanguage">
+  <component name="RunManager" selected="Gradle.searchArticleAboutJavaWithAndroid">
+    <configuration name="SearchArticleAboutJavaWithIOS.searchArticleAboutJava" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;wikiTests.iosTests.SearchArticleAboutJavaWithIOS.searchArticleAboutJava&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Wiki [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="searchArticleAboutJavaWithAndroid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,36 +156,6 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
-    </configuration>
-    <configuration name="AddLanguage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wiki.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wikiTests.mobileTests.androidTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wikiTests.mobileTests.androidTests" />
-      <option name="MAIN_CLASS_NAME" value="wikiTests.mobileTests.androidTests.AddLanguage" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="searchArticleAboutJavaWithAndroid (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wiki.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wikiTests.mobileTests.androidTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wikiTests.mobileTests.androidTests" />
-      <option name="MAIN_CLASS_NAME" value="wikiTests.mobileTests.androidTests.searchArticleAboutJavaWithAndroid" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="searchArticleAboutJavaWithAndroid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wiki.test" />
@@ -175,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddLanguage" />
-        <item itemvalue="JUnit.searchArticleAboutJavaWithAndroid (1)" />
         <item itemvalue="Gradle.searchArticleAboutJavaWithAndroid" />
         <item itemvalue="JUnit.searchArticleAboutJavaWithAndroid.searchArticleAboutJava" />
         <item itemvalue="JUnit.searchArticleAboutJavaWithAndroid" />
+        <item itemvalue="Gradle.Wiki [assemble]" />
+        <item itemvalue="Gradle.SearchArticleAboutJavaWithIOS.searchArticleAboutJava" />
       </list>
     </recent_temporary>
   </component>
@@ -213,50 +228,13 @@
       <option name="project" value="LOCAL" />
       <updated>1675946066493</updated>
     </task>
-    <task id="LOCAL-00004" summary="Add ios test">
-      <created>1675946851676</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1675946851676</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add ios test">
-      <created>1675947987472</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1675947987472</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add tags">
-      <created>1675948647368</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1675948647368</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Add new test">
-      <created>1678352421437</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678352421437</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add new test">
-      <created>1678352641242</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678352641242</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Add ios test" />
-    <MESSAGE value="Add tags" />
-    <MESSAGE value="Add new test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ios test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
