@@ -1,6 +1,7 @@
 package wikiTests.mobileTests.androidTests;
 
 import io.qameta.allure.Owner;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import wikiTests.mobileTests.TestBase;
@@ -17,6 +18,7 @@ public class searchArticleAboutJavaWithAndroid extends TestBase {
     @Owner("Rodichev")
     @Test
     @Tag("android")
+    @DisplayName("Find article")
     void searchArticleAboutJava() {
         step("Type search", () -> {
             $(accessibilityId("Search Wikipedia")).click();
