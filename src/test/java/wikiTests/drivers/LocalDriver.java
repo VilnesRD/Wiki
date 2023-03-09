@@ -13,6 +13,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import static io.appium.java_client.remote.AutomationName.ANDROID_UIAUTOMATOR2;
+import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 
 public class LocalDriver implements WebDriverProvider{
 
@@ -26,8 +27,6 @@ public class LocalDriver implements WebDriverProvider{
 
         @Override
         public WebDriver createDriver(Capabilities capabilities) {
-            //
-
             UiAutomator2Options options = new UiAutomator2Options();
             options.merge(capabilities);
 
