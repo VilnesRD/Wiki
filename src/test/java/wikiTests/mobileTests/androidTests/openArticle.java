@@ -1,5 +1,6 @@
 package wikiTests.mobileTests.androidTests;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import wikiTests.mobileTests.TestBase;
@@ -12,6 +13,7 @@ import static io.appium.java_client.AppiumBy.id;
 import static io.qameta.allure.Allure.step;
 
 public class openArticle extends TestBase {
+    @Owner("Rodichev")
     @Test
     @DisplayName("Открытие статьи")
     void openTopic() {
