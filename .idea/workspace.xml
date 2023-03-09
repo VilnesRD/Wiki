@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="reset version" />
+    <list default="true" id="8ff687cb-080f-4461-821d-17205eac165b" name="Changes" comment="upd test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,30 +92,7 @@
       <recent name="wikiTests.iosTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.searchArticleAboutJavaWithAndroid">
-    <configuration name="SearchArticleAboutJavaWithIOS.searchArticleAboutJava" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;wikiTests.iosTests.SearchArticleAboutJavaWithIOS.searchArticleAboutJava&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.openArticle">
     <configuration name="Wiki [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,6 +137,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="openArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wiki.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wikiTests.mobileTests.androidTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wikiTests.mobileTests.androidTests" />
+      <option name="MAIN_CLASS_NAME" value="wikiTests.mobileTests.androidTests.openArticle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="searchArticleAboutJavaWithAndroid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wiki.test" />
       <extension name="coverage">
@@ -191,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.openArticle" />
         <item itemvalue="Gradle.searchArticleAboutJavaWithAndroid" />
         <item itemvalue="JUnit.searchArticleAboutJavaWithAndroid.searchArticleAboutJava" />
         <item itemvalue="JUnit.searchArticleAboutJavaWithAndroid" />
         <item itemvalue="Gradle.Wiki [assemble]" />
-        <item itemvalue="Gradle.SearchArticleAboutJavaWithIOS.searchArticleAboutJava" />
       </list>
     </recent_temporary>
   </component>
@@ -236,14 +230,50 @@
       <option name="project" value="LOCAL" />
       <updated>1678355852429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reset version">
+      <created>1678356016563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678356016563</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upd test">
+      <created>1678356312787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678356312787</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upd test">
+      <created>1678356489073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678356489073</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upd test">
+      <created>1678357560451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678357560451</updated>
+    </task>
+    <task id="LOCAL-00009" summary="upd test">
+      <created>1678358711861</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678358711861</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Add ios test" />
     <MESSAGE value="reset version" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset version" />
+    <MESSAGE value="upd test" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
