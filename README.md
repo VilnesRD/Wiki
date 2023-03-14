@@ -90,7 +90,7 @@ Report*</strong></code>, кликнув по которому, откроетс�
 > После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img title="Telegram Notifications" src="media/screens/TgResults.png">
+<img title="Telegram Notifications" src="media/screen/TgResults.png">
 </p>
 
 ## <img src="media/icons/Browserstack.svg" width="25" height="25"  alt="Browserstack"/></a> Пример видео прохождения теста в Browserstack
